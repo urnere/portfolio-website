@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import Repositories from '@/components/Repositories.vue'
-import ContentContainer from '@/components/container.vue'
+import ContentContainer from '@/components/Container.vue'
 </script>
 
 <template>
