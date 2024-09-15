@@ -30,7 +30,7 @@ onMounted(async () => {
         :href="repo.html_url"
         target="_blank"
         class="inline-block px-4 py-2 bg-secondary dark:bg-primary text-primary dark:text-secondary rounded-full hover:opacity-80 transition-opacity border-2 border-secondary dark:border-primary"
-        >GitHub'da Görüntüle</a
+        >View on GitHub</a
       >
     </div>
   </div>
