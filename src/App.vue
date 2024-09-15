@@ -16,7 +16,7 @@ const handleToggleDark = (event: MouseEvent) => {
     class="min-h-screen bg-primary dark:bg-primary-dark text-primary-dark dark:text-secondary"
   >
     <header>
-      <div class="wrapper flex justify-between items-center mr-6 ml-10 pt-5 pb-10">
+      <div class="wrapper flex justify-between items-center mr-12 ml-12 pt-5 pb-10">
         <nav>
           <RouterLink to="/">
             <div class="w-[80px] h-[30px]">
@@ -30,7 +30,7 @@ const handleToggleDark = (event: MouseEvent) => {
         </nav>
         <button
           @click="handleToggleDark"
-          class="p-2 rounded-full hover:bg-primary-dark/10 transition-all duration-200 dark:hover:bg-primary/10 w-10 h-10 items-center justify-center"
+          class="rounded-full hover:bg-primary-dark/10 transition-all duration-200 dark:hover:bg-primary/10 w-10 h-10 items-center justify-center"
         >
           <i :class="isDark ? 'pi pi-sun' : 'pi pi-moon'" />
         </button>

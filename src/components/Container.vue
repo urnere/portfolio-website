@@ -8,10 +8,10 @@ defineOptions({
 </script>
 
 <template>
-  <div class="content-container sm:border-x-0">
-    <div class="content-item flex">
-      <slot></slot>
-    </div>
+  <div
+    class="p-4 rounded-lg shadow-md flex items-center justify-start w-full border-2 border-secondary"
+  >
+    <slot></slot>
   </div>
 </template>
 
