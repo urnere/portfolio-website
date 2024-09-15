@@ -1,3 +1,26 @@
+<script setup lang="ts">
+import { ref, onMounted } from 'vue'
+import axios from 'axios'
+
+interface Repository {
+  id: number
+  name: string
+  description: string | null
+  html_url: string
+}
+
+const repositories = ref<Repository[]>([])
+
+onMounted(async () => {
+  try {
+    const response = await axios.get('https://api.github.com/users/urnereDev/repos')
+    repositories.value = response.data
+  } catch (error) {
+    console.error('Repolar yüklenirken hata oluştu:', error)
+  }
+})
+</script>
+
 <template>
   <div class="repositories-container">
     <div v-for="repo in repositories" :key="repo.id" class="repository-box">
@@ -12,22 +35,6 @@
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-import { ref, onMounted } from 'vue'
-import axios from 'axios'
-
-const repositories = ref([])
-
-onMounted(async () => {
-  try {
-    const response = await axios.get('https://api.github.com/users/urnereDev/repos')
-    repositories.value = response.data
-  } catch (error) {
-    console.error('Repolar yüklenirken hata oluştu:', error)
-  }
-})
-</script>
 
 <style scoped>
 .repositories-container {
