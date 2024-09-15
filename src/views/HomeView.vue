@@ -1,6 +1,13 @@
 <script setup lang="ts">
 import Repositories from '@/components/Repositories.vue'
 import ContentContainer from '@/components/Container.vue'
+
+interface Repository {
+  id: number
+  name: string
+  description: string | null
+  html_url: string
+}
 </script>
 
 <template>
