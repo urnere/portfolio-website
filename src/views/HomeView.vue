@@ -5,7 +5,7 @@ import ContentContainer from '@/components/Container.vue'
 
 <template>
   <div
-    class="min-h-screen bg-primary dark:bg-primary-dark text-gray-900 dark:text-secondary p-4 sm:p-8"
+    class="min-h-screen bg-primary dark:bg-primary-dark text-gray-900 dark:text-secondary p-4 sm:p-8 mr-12 ml-12"
   >
     <div class="max-w-7xl mx-auto"></div>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
@@ -71,7 +71,7 @@ import ContentContainer from '@/components/Container.vue'
       <section>
         <h2 class="text-2xl font-bold mb-4 text-center lg:text-left">Development</h2>
         <div
-          class="grid grid-cols-2 sm:grid-cols-3 sm:flex-col md:grid-cols-4 lg:grid-cols-5 gap-4"
+          class="grid grid-cols-1 sm:grid-cols-3 sm:flex-col md:grid-cols-4 lg:grid-cols-5 gap-4"
         >
           <ContentContainer>
             <img src="@/assets/img/logo/flutter-logo.png" class="w-5 h-5 mr-2" alt="Flutter" />
@@ -103,7 +103,7 @@ import ContentContainer from '@/components/Container.vue'
 
       <section>
         <h2 class="text-2xl font-bold mb-4 text-center lg:text-left">Apps</h2>
-        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+        <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
           <ContentContainer>
             <img src="@/assets/img/logo/vs.png" class="w-5 h-5 mr-2" alt="Visual Studio" />
             <h3>Visual Studio</h3>
@@ -134,7 +134,7 @@ import ContentContainer from '@/components/Container.vue'
 
       <section>
         <h2 class="text-2xl font-bold mb-4 text-center lg:text-left">Services</h2>
-        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+        <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
           <ContentContainer>
             <img src="@/assets/img/logo/github.png" class="w-5 h-5 mr-2" alt="Github" />
             <h3>Github</h3>
