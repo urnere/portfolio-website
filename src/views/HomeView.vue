@@ -68,7 +68,7 @@ import ContentContainer from '@/components/Container.vue'
 
     <!-- Diğer bölümler -->
     <div class="mt-12">
-      <section>
+      <section class="mb-12">
         <h2 class="text-2xl font-bold mb-4 text-center lg:text-left">Development</h2>
         <div
           class="grid grid-cols-1 sm:grid-cols-3 sm:flex-col md:grid-cols-4 lg:grid-cols-5 gap-4"
@@ -101,7 +101,7 @@ import ContentContainer from '@/components/Container.vue'
         </div>
       </section>
 
-      <section>
+      <section class="mb-12">
         <h2 class="text-2xl font-bold mb-4 text-center lg:text-left">Apps</h2>
         <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
           <ContentContainer>
@@ -132,7 +132,7 @@ import ContentContainer from '@/components/Container.vue'
         </div>
       </section>
 
-      <section>
+      <section class="mb-12">
         <h2 class="text-2xl font-bold mb-4 text-center lg:text-left">Services</h2>
         <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
           <ContentContainer>
