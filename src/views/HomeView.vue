@@ -13,12 +13,12 @@ import ContentContainer from '@/components/Container.vue'
       <div
         class="flex flex-col justify-center items-center lg:items-start text-center lg:text-left"
       >
-        <h5 class="text-lg sm:text-xl font-bold text-black dark:text-white">Merhaba, Ben Barış</h5>
+        <h5 class="text-lg sm:text-xl font-bold text-black dark:text-white">Hi, I'm Barış</h5>
         <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold mt-4">
-          Flutter & Frontend Geliştirici
+          Flutter & Frontend Developer
         </h1>
         <p class="mt-4 text-sm sm:text-base">
-          Çapraz platform mobil uygulamaları ve web uygulamaları geliştiriyorum.
+          I'm developing cross-platform mobile applications and web applications.
         </p>
         <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4 mt-6">
           <button
