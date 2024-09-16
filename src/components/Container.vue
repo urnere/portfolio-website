@@ -37,7 +37,7 @@ defineOptions({
 @media (prefers-color-scheme: dark) {
   .content-item {
     background-color: var(--color-background-dark);
-    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.323);
     border-color: #a89a9a;
   }
 }

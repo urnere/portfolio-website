@@ -45,7 +45,7 @@ onMounted(async () => {
 }
 
 .repository-box {
-  border: 3px solid transparent;
+  border: 2px solid #a89a9a;
   border-radius: 12px;
   padding: 20px;
   background-color: var(--color-primary);
