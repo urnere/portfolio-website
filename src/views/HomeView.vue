@@ -5,7 +5,7 @@ import ContentContainer from '@/components/Container.vue'
 
 <template>
   <div
-    class="min-h-screen bg-primary dark:bg-primary-dark text-gray-900 dark:text-secondary p-4 sm:p-8 mr-12 ml-12"
+    class="min-h-screen bg-primary dark:bg-primary-dark text-gray-900 dark:text-secondary p-4 sm:p-8 mr-11 ml-11"
   >
     <div class="max-w-7xl mx-auto"></div>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
