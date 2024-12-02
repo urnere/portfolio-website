@@ -34,6 +34,16 @@ onMounted(async () => {
       >
     </div>
   </div>
+    <div
+    class="flex justify-center lg:justify-center items-center borinline-block px-4 py-2 bg-secondary dark:bg-secondary text-primary rounded-full hover:opacity-80 transition-opacity border-2 border-secondary dark:border-primary-darkder bg-primary border-secondary h-[60px] rounded-md mt-5"
+  >
+    <a
+      href="https://github.com/urnereDev?tab=repositories"
+      class="text-primary dark:text-primary-dark text-2xl text-center"
+    >
+      Get See More
+    </a>
+  </div>
 </template>
 
 <style scoped>
