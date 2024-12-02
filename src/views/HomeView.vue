@@ -15,7 +15,7 @@ import ContentContainer from '@/components/Container.vue'
       >
         <h5 class="text-lg sm:text-xl font-bold text-black dark:text-white">Hi, I'm Barış</h5>
         <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold mt-4">
-          Flutter & Frontend Developer
+          Mobile & Frontend Developer
         </h1>
         <p class="mt-4 text-sm sm:text-base">
           I'm developing cross-platform mobile applications and web applications.
@@ -95,7 +95,7 @@ import ContentContainer from '@/components/Container.vue'
           </ContentContainer>
           <ContentContainer>
             <img src="@/assets/img/logo/react.png" class="w-5 h-5 mr-2" alt="React" />
-            <h1>React</h1>
+            <h1>React/React Native</h1>
           </ContentContainer>
           <!-- Diğer ContentContainer'lar -->
         </div>
