@@ -8,7 +8,7 @@ interface Repository {
   description: string | null
   html_url: string
 }
-
+const displayedRepositories = computed(() => repositories.value.slice(0, 5))
 const repositories = ref<Repository[]>([])
 
 onMounted(async () => {
@@ -23,7 +23,7 @@ onMounted(async () => {
 
 <template>
   <div class="repositories-container">
-    <div v-for="repo in repositories" :key="repo.id" class="repository-box">
+    <div v-for="repo in displayedRepositories" :key="repo.id" class="repository-box">
       <h3 class="text-lg font-semibold text-secondary dark:text-primary mb-2">{{ repo.name }}</h3>
       <p class="text-sm text-gray-700 dark:text-gray-300 mb-4">{{ repo.description }}</p>
       <a
