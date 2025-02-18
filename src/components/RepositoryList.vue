@@ -13,7 +13,7 @@ const repositories = ref<Repository[]>([])
 
 onMounted(async () => {
   try {
-    const response = await axios.get('https://api.github.com/users/urnereDev/repos')
+    const response = await axios.get('https://api.github.com/users/urnere/repos')
     repositories.value = response.data
   } catch (error) {
     console.error('Repolar yüklenirken hata oluştu:', error)
