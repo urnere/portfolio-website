@@ -28,7 +28,7 @@ import ContentContainer from '@/components/Container.vue'
             <i class="pi pi-download"></i>
           </button>
           <a
-            href="https://github.com/urnereDev"
+            href="https://github.com/urnere"
             target="_blank"
             rel="noopener noreferrer"
             class="flex items-center justify-center rounded-full border-2 border-secondary w-12 h-12"
