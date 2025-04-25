@@ -36,7 +36,7 @@ import ContentContainer from '@/components/Container.vue'
             <i class="pi pi-github"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/urnere"
+            href="https://www.linkedin.com/in/urnere/"
             target="_blank"
             rel="noopener noreferrer"
             class="flex items-center justify-center rounded-full border-2 border-secondary w-12 h-12"
